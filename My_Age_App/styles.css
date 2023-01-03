@@ -1,0 +1,89 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body{
+    background: #29192f; 
+    color: #fff; 
+    font-family: monospace;  
+
+}
+.container{
+    width: 100%; 
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* styling the home page */
+.container h1 { 
+    font-weight: bold; 
+    color: rgb(209, 206, 206);
+
+}
+.container .btn a{
+    margin: 20px; 
+    text-align: center; 
+    background: #060207; 
+    border-radius: 10px;
+    padding: 14px 72px;
+    border: 1px solid rgba(0, 0, 0, 0.603); 
+    color: #fff; 
+    font-size: 15px; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+.container .btn { 
+    background: none; 
+    border: none; 
+}
+.container .btn a:hover{ 
+    background: #a7a7a8; 
+    color: #000;
+    border: 1px solid transparent; 
+}
+
+
+/* styling the main pages */
+
+.container h1 { 
+    margin-bottom: 80px; 
+    font-size: 50px; 
+}
+.container input { 
+    width: 30em; 
+    height: 7vh;
+    border-radius: 5px; 
+    border: 1px solid rgba(0, 0, 0, 0.575);
+}
+input:focus { 
+    outline: none; 
+    border-color: #000;  
+}
+input[type="datetime-local"]{
+    padding: 25px; 
+    font-size: 15px ; 
+    text-align: center; 
+    background: #060207;
+    color: #fff; 
+}
+#result{ 
+    margin: 20px 0px 0px 250px; 
+    background: #060207; 
+    color: #fff; 
+   
+}
+#result:hover{ 
+    background: #a7a7a8; 
+    border-radius: 20px; 
+    transition: 0.1s; 
+    color: #000; 
+}
+#demo{ 
+    margin-top: 20px; 
+    text-align: center; 
+}
