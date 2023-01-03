@@ -64,7 +64,7 @@ input:focus {
     outline: none; 
     border-color: #000;  
 }
-input[type="datetime-local"]{
+input[type="number"]{
     padding: 25px; 
     font-size: 15px ; 
     text-align: center; 
