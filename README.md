@@ -2,4 +2,4 @@
 
 Helps You calculate your age and the year you were born
 
-Note: Open the index.html fiel first
+Note: Open the index.html file first
